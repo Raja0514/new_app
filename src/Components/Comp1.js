@@ -1,8 +1,8 @@
 import React from "react";
 import { Component } from "react/cjs/react.production.min";
 class Comp1 extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = { displayinfo: false };
     console.log("constructor is working", this);
     this.readMore = this.readMore.bind(this); //if we use Arrow function no need Bind

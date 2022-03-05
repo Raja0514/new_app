@@ -1,8 +1,8 @@
 import React from "react";
 import { Component } from "react/cjs/react.development";
 class Comp6 extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       location: "Rusayl",
       address: "Near national gas company",
